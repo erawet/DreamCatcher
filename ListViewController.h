@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ListViewController.h
 //  DreamCatcher
 //
 //  Created by Don Wettasinghe on 12/29/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ListViewController : UIViewController
 
 @end
-

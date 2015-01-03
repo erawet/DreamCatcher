@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		0336984A1A51AAC80093C474 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033698491A51AAC80093C474 /* main.m */; };
 		0336984D1A51AAC80093C474 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336984C1A51AAC80093C474 /* AppDelegate.m */; };
-		033698501A51AAC80093C474 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336984F1A51AAC80093C474 /* ViewController.m */; };
 		033698531A51AAC80093C474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033698511A51AAC80093C474 /* Main.storyboard */; };
 		033698551A51AAC80093C474 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033698541A51AAC80093C474 /* Images.xcassets */; };
 		033698581A51AAC80093C474 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033698561A51AAC80093C474 /* LaunchScreen.xib */; };
 		033698641A51AAC80093C474 /* DreamCatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033698631A51AAC80093C474 /* DreamCatcherTests.m */; };
+		0336986F1A51BE1F0093C474 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336986E1A51BE1F0093C474 /* ListViewController.m */; };
+		03CD5D871A57BBF600702998 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CD5D861A57BBF600702998 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		033698491A51AAC80093C474 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0336984B1A51AAC80093C474 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0336984C1A51AAC80093C474 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0336984E1A51AAC80093C474 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0336984F1A51AAC80093C474 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		033698521A51AAC80093C474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		033698541A51AAC80093C474 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		033698571A51AAC80093C474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0336985D1A51AAC80093C474 /* DreamCatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamCatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		033698621A51AAC80093C474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		033698631A51AAC80093C474 /* DreamCatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamCatcherTests.m; sourceTree = "<group>"; };
+		0336986D1A51BE1F0093C474 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = ../ListViewController.h; sourceTree = "<group>"; };
+		0336986E1A51BE1F0093C474 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = ../ListViewController.m; sourceTree = "<group>"; };
+		03CD5D851A57BBF600702998 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		03CD5D861A57BBF600702998 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +84,12 @@
 		033698461A51AAC80093C474 /* DreamCatcher */ = {
 			isa = PBXGroup;
 			children = (
+				0336986D1A51BE1F0093C474 /* ListViewController.h */,
+				0336986E1A51BE1F0093C474 /* ListViewController.m */,
+				03CD5D851A57BBF600702998 /* DetailViewController.h */,
+				03CD5D861A57BBF600702998 /* DetailViewController.m */,
 				0336984B1A51AAC80093C474 /* AppDelegate.h */,
 				0336984C1A51AAC80093C474 /* AppDelegate.m */,
-				0336984E1A51AAC80093C474 /* ViewController.h */,
-				0336984F1A51AAC80093C474 /* ViewController.m */,
 				033698511A51AAC80093C474 /* Main.storyboard */,
 				033698541A51AAC80093C474 /* Images.xcassets */,
 				033698561A51AAC80093C474 /* LaunchScreen.xib */,
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				033698501A51AAC80093C474 /* ViewController.m in Sources */,
 				0336984D1A51AAC80093C474 /* AppDelegate.m in Sources */,
 				0336984A1A51AAC80093C474 /* main.m in Sources */,
+				0336986F1A51BE1F0093C474 /* ListViewController.m in Sources */,
+				03CD5D871A57BBF600702998 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 				033698691A51AAC80093C474 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0336986A1A51AAC80093C474 /* Build configuration list for PBXNativeTarget "DreamCatcherTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				0336986C1A51AAC80093C474 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
